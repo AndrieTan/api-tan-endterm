@@ -9,8 +9,8 @@ $list = $data['records'];
 
 <h1>Products</h1>
 
-<table>
-    <tr class="head" border="1px">
+<table border="1px">
+    <tr class="head">
         <td>Name</td>
         <td>Description</td>
         <td>Price</td>
