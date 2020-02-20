@@ -11,7 +11,7 @@ $list = $data['records'];
 
 <table border="1px">
     <tr class="head">
-        <td>Name<a href = "product_info.php?id=<?php echo $value ['id'];?></td>
+        <td>Name</td>
         <td>Description</td>
         <td>Price</td>
         <td>Category</td>
@@ -20,7 +20,7 @@ $list = $data['records'];
 foreach($list as $value){
     ?>
     <tr>
-        <td><?php echo $value['name'];?></a></td>
+        <td><?php echo $value['name'];?></td><a href = "product_info.php?id=<?php echo $value ['id'];?></a>
         <td><?php echo $value['description'];?></td>
         <td><?php echo $value['price'];?></td>
         <td><?php echo $value['category_name'];?></td>
