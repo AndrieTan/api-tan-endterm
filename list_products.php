@@ -20,7 +20,7 @@ $list = $data['records'];
 foreach($list as $value){
     ?>
     <tr>
-        <td><?php echo $value['name'];?><a href = "delete.php?id=<?php echo $value ['id'];?></td>
+        <td><?php echo $value['name'];?><a href = "product_info.php?id=<?php echo $value ['id'];?></a></td>
         <td><?php echo $value['description'];?></td>
         <td><?php echo $value['price'];?></td>
         <td><?php echo $value['category_name'];?></td>
