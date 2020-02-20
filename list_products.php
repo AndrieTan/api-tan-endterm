@@ -11,7 +11,7 @@ $list = $data['records'];
 
 <table border="1px">
     <tr class="head">
-        <td>Name</td>
+        <td>Name<a href = "product_info.php?id=<?php echo $value ['id'];?></td>
         <td>Description</td>
         <td>Price</td>
         <td>Category</td>
