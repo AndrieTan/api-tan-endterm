@@ -7,7 +7,7 @@ $list = $data['records'];
 
 ?>
 
-<h1>GAMES</h1>
+<h1>Products</h1>
 
 <table border="1px">
     <tr class="head">
