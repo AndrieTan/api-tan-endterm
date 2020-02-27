@@ -8,7 +8,7 @@
 ?>
 
 	<br>
-	<h1> PRODUCT DETAILS </h1>
+	<center><h1> PRODUCT DETAILS </h1>
 	<hr style ="width: 25%;">
 	<br>
 	<table style="border: 1px black solid;">
