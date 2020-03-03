@@ -19,7 +19,7 @@
 
 <h1>Products</h1>
 
-<form method = "POST" action="index.php?page=Product">
+<form method = "POST" action="product_list.php">
 	<input class="search" type="text" name ="search">
 	<input class="submit" type="submit" name="submit" value="SEARCH">
 </form>
