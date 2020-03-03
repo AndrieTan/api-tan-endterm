@@ -6,8 +6,6 @@
  	$result = $details['records'];
 ?>
 
-<link rel="stylesheet" type="text/css" href="css/styles_product.css">
-
 <html>
 	<head> 
 		<title> Delete Confirm </title>
