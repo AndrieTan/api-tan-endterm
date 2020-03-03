@@ -29,5 +29,5 @@
 			<td><h2><?php echo $result['category_name']; ?></h2></td>
 		</tr>
 	</table>
-<a href="index.php?page=Update&id=<?php echo $id; ?>"><button class="confirm1" value="Update" type="submit">Update</button></a>
-<a href="index.php?page=Delete&id=<?php echo $id; ?>"><button class="confirm2" value="Delete" type="submit">Delete</button></a>
+<a href="index.php?page=Update&id=<?php echo $id; ?>" type="submit">Update</button></a>
+<a href="index.php?page=Delete&id=<?php echo $id; ?>" value="Delete" type="submit">Delete</button></a>
