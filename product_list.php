@@ -19,6 +19,11 @@ $search = (isset($_POST['search']) && $_POST['search'] != '') ? $_POST['search']
 
 <h1>Products</h1>
 
+<form method = "POST" action="index.php?page=Product">
+	<input class="search" type="text" name ="search">
+	<input class="submit" type="submit" name="submit" value="SEARCH">
+</form>
+
 <table border="1px">
     <tr class="head">
         <td>Name</td>
