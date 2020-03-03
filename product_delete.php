@@ -19,7 +19,7 @@
 		<form action = "pro_delete.php?id=<?php echo $id?>" method = "POST">
 			<input class="delete" type="Submit" name="Submit" value="Yes">
 		</form>
-		<form action="index.php?">
+		<form action="index.php?page=Product">
 			<button class="delete" type="submit"> No </button>
 		</form>
 	</body>
