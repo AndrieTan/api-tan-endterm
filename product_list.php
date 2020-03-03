@@ -14,7 +14,6 @@
 		$list = $data['records'];
 	 }
 
-
 ?>
 
 <h1>Products</h1>
