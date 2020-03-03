@@ -13,7 +13,7 @@
 
 <form method="POST" action="pro_update.php?id=<?php echo $id ?>">
 	<br>
-	<h1> ADD PRODUCT </h1>
+	<h1> Update Product </h1>
 	<hr style ="width: 25%;">
 	<br>
 	<table style="border: 1px black solid;">
