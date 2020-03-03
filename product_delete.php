@@ -17,7 +17,7 @@
 			<input type="Submit" name="Submit" value="Yes">
 		</form>
 		<form action="product_list.php">
-			<input type="Submit" name="No">
+			<input type="Submit" name="Submit" value = "No">
 		</form>
 	</body>
 </html>
