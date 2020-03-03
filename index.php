@@ -18,16 +18,16 @@
 					require_once 'category_list.php';
 				break;
 				case 'AddProd':
-					require_once 'addproduct.php';
+					require_once 'form_create.php';
 				break;
 				case 'Details':
-					require_once 'product_details.php';
+					require_once 'product_info.php';
 				break;
 				case 'Update':
-					require_once 'updateproduct.php';
+					require_once 'product_update.php';
 				break;
 				case 'Delete':
-					require_once 'deleteproduct.php';
+					require_once 'product_delete.php';
 				break;	
 				default:
 				break;
