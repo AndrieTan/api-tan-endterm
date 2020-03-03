@@ -26,4 +26,4 @@ curl_setopt_array($curl, array(
   
   curl_close($curl);
   echo $response;
-  header("product_list.php");
+  header("index.php");
