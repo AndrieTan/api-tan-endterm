@@ -18,7 +18,7 @@
 		<form action = "pro_delete.php?id=<?php echo $id?>" method = "POST">
 			<input type="Submit" name="Submit" value="YES">
 		</form>
-		<form action="product_list.php">
+		<form action="index.php?page=product">
 			<input type="Submit" name="Submit" value = "NO">
 		</form>
 	</body>
