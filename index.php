@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title> Test </title>
+		<title> API Inventory </title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">   
 	</head>
 	<body>
