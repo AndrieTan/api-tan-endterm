@@ -22,4 +22,4 @@ $response = curl_exec($curl);
 
 curl_close($curl);
 echo $response;
-header("location:index.php");
+header("location:index.php?page=product");
