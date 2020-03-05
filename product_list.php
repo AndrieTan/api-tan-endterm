@@ -13,8 +13,8 @@
 
 	$list = $data['records'];
 ?>
+<title> Products </title>
 <link rel="stylesheet" type="text/css" href="css/style.css">    
-
 <center><h1>PRODUCTS</h1>
 
 <form method = "POST" action="product_list.php">
