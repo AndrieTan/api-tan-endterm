@@ -10,23 +10,14 @@
 	<center><h1> PRODUCT DETAILS </h1>
 	<hr style ="width: 25%;">
 	<br>
-	<table style="border: 1px black solid;">
-		<tr>
-			<td><h2>Name:</h2></td>
-			<td><h2><?php echo $result['name']; ?></h2></td>
-		</tr>
-		<tr>
-			<td><h2>Description: </h2></td>
-			<td><h2><?php echo $result['description']; ?></h2></td>
-		</tr>
-		<tr>
-			<td><h2>Price: </h2></td>
-			<td><h2><?php echo $result['price']; ?></h2></td>
-		</tr>
-		<tr>
-			<td><h2>Category: </h2></td>
-			<td><h2><?php echo $result['category_name']; ?></h2></td>
-		</tr>
-	</table>
-<a href="product_update.php?id=<?php echo $id; ?>" type="submit">Update</button></a>
+		<h2>Name: </h2>
+		<h2><?php echo $result['name']; ?></h2>
+		<h2>Description: </h2>
+		<h2><?php echo $result['description']; ?></h2>
+		<h2>Price: </h2>
+		<h2><?php echo $result['price']; ?></h2>
+		<h2>Category: </h2>
+		<h2><?php echo $result['category_name']; ?></h2>
+		<br>
+<a href="product_update.php?id=<?php echo $id; ?>" type="submit">Update</button></a>&nbsp;
 <a href="product_delete.php?id=<?php echo $id; ?>" value="Delete" type="submit">Delete</button></a>
