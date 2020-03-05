@@ -21,7 +21,7 @@
 	<input class="submit" type="submit" name="submit" value="SEARCH">
 </form>
 
-<table border="1px">
+<table class = "products" align = "center">
     <tr class="head">
         <td>Name</td>
         <td>Description</td>
