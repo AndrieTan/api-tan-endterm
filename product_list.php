@@ -13,8 +13,9 @@
 
 	$list = $data['records'];
 ?>
+<link rel="stylesheet" type="text/css" href="css/style.css">    
 
-<h1>Products</h1>
+<center><h1>Products</h1>
 
 <form method = "POST" action="product_list.php">
 	<input class="search" type="text" name ="search">
