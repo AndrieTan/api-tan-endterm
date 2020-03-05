@@ -16,22 +16,22 @@ body{
     font-weight: normal;
     font-style: normal;
 }
-.products{
+#products{
   font-family: "Ubuntu Light", "Ubuntu Regular", "Ubuntu Bold";
   border-collapse: collapse;
   width: 100%;
 }
-.products td, .products th{
+#products td, .products th{
   border: 1px solid #ddd;
   padding: 8px;
 }
-.products tr:nth-child(even){
+#products tr:nth-child(even){
     background-color: #f2f2f2;
 }
-.products tr:hover{
+#products tr:hover{
     background-color: #ddd;
 }
-.products th{
+#products th{
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
