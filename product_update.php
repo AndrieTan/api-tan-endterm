@@ -17,10 +17,10 @@
 	<h1> UPDATE PRODUCT </h1>
 	<hr style ="width: 25%;">
 	<br>
-	<h2>Name:<input type="text" name="name" value="<?php echo $result['name'];?>"></h2>
-	<h2>Description: </h2><input type="text" name="description" value="<?php echo $result['description'];?>">
-	<h2>Price: </h2> <input type="text" name="price" value="<?php echo $result['price'];?>">
-	<h2>Category: </h2>
+	<h2>Name:&nbsp;<input type="text" name="name" value="<?php echo $result['name'];?>"></h2>
+	<h2>Description:&nbsp;</h2><input type="text" name="description" value="<?php echo $result['description'];?>"></h2>
+	<h2>Price:&nbsp;<input type="text" name="price" value="<?php echo $result['price'];?>"></h2>
+	<h2>Category:&nbsp;
 	<select type="text" name="category">
 		<option value="<?php echo $result['category_id'];?>" selected> <?php echo $result['category_name'];?> </option>
 		<?php
@@ -31,6 +31,7 @@
 		<?php
 					}
 		?>
+	</h2>
 	</select>
 	<br><br>
 	<button class="confirm" type="submit" value="Create" name="Submit"> UPDATE </button>
