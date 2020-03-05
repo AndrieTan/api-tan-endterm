@@ -3,12 +3,12 @@
 	$categoryData = json_decode($jsonCategory,true);
 	$category = $categoryData['records'];
 ?>
-
-
+<link rel="stylesheet" type="text/css" href="css/style.css">   
 <center><h1>CATEGORY LIST</h1>
+	<hr style ="width: 25%;">
 <br>
 
-<table>
+<table id="products">
 		<tr>
 			<td> <b>ID</b> </td>
 			<td> <b>Name</b> </td>
