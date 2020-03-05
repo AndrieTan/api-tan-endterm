@@ -13,7 +13,30 @@
 		<a href = https://api-tan-endterm.herokuapp.com/product_list.php> Read </a> &nbsp;
 	  	<a href = https://api-tan-endterm.herokuapp.com/category_list.php> Categories </a> &nbsp;
 	<div class = "content">
-		test
+		<?php 
+			switch($page){
+				case 'product':
+					require_once 'product_list.php';
+				break;
+				case 'category':
+					require_once 'category_list.php';
+				break;
+				case 'add':
+					require_once 'form_create.php';
+				break;
+				case 'info':
+					require_once 'product_info.php';
+				break;
+				case 'update':
+					require_once 'product_update.php';
+				break;
+				case 'delete':
+					require_once 'product_delete.php';
+				break;	
+				default:
+				break;
+			}
+			?>
 	</div>
 	</body>
 </html>
