@@ -1,19 +1,17 @@
 <?php
-	$json = file_get_contents("http://rdapi.herokuapp.com/product/read.php");
-	$data = json_decode($json,true);
-
-	$search = (isset($_POST['search']) && $_POST['search'] != '') ? $_POST['search'] : '';
-
+	if(isset($_POST['search'])){
+	$search = $_POST['search'];
+}
 	if(isset($search)){
-	$prodsearch = file_get_contents('http://rdapi.herokuapp.com/product/search.php?s='.$search);
-	$rec = json_decode($prodsearch,true);
+		$json = file_get_contents('http://rdapi.herokuapp.com/product/search.php?s='.$search);
+		$data = json_decode($json,true);
+	}
+	else {
+		$json = file_get_contents('http://rdapi.herokuapp.com/product/read.php');
+		$data = json_decode($json,true);
+	}
 
 	$list = $data['records'];
-
-	}else{
-		$list = $data['records'];
-	 }
-
 ?>
 
 <h1>Products</h1>
