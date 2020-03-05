@@ -7,5 +7,5 @@
 		<input type="text" name="description" placeholder="description"/><br>
 		<input type="text" name="price" placeholder="price"/><br>
 		<input type="text" name="category" placeholder="category"/><br><br>
-		<input type="submit" name="submit" value="Submit"/>
+		<input type="submit" name="submit" value="SUBMIT"/>
 </form>
