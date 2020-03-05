@@ -16,34 +16,24 @@
 	<h1> UPDATE PRODUCT </h1>
 	<hr style ="width: 25%;">
 	<br>
-	<table style="border: 1px black solid;">
-		<tr>
-			<td><h2>Name:</h2></td>
-			<td><input type="text" name="name" value="<?php echo $result['name'];?>"></td>
-		</tr>
-		<tr>
-			<td><h2>Description: </h2></td>
-			<td><input type="text" name="description" value="<?php echo $result['description'];?>"></td>
-		</tr>
-		<tr>
-			<td><h2>Price: </h2></td>
-			<td><input type="text" name="price" value="<?php echo $result['price'];?>"></td>
-		</tr>
-		<tr>
-			<td><h2>Category: </h2></td>
-			<td><select type="text" name="category">
-					<option value="<?php echo $result['category_id'];?>" selected> <?php echo $result['category_name'];?> </option>
-				<?php
-					foreach($category as $catSelect)
+	<h2>Name: </h2>
+	<input type="text" name="name" value="<?php echo $result['name'];?>"
+	<h2>Description: </h2>
+	<input type="text" name="description" value="<?php echo $result['description'];?>">
+	<h2>Price: </h2>
+	<input type="text" name="price" value="<?php echo $result['price'];?>">
+	<h2>Category: </h2>
+	<select type="text" name="category">
+		<option value="<?php echo $result['category_id'];?>" selected> <?php echo $result['category_name'];?> </option>
+		<?php
+			foreach($category as $catSelect)
 					{
-				?>
-					<option value="<?php echo $catSelect['id']; ?>"> <?php echo $catSelect['name']; ?> </option>
-				<?php
+		?>
+			<option value="<?php echo $catSelect['id']; ?>"> <?php echo $catSelect['name']; ?> </option>
+		<?php
 					}
-				?>
-			</select></td>
-		</tr>
-	</table>
+		?>
+	</select>
 	<br>
 	<button class="confirm" type="submit" value="Create" name="Submit"> Update </button>
 </form>
