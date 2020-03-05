@@ -10,10 +10,10 @@
         <link rel="stylesheet" type="text/css" href="css/style.css">    
 	<center><h1> PRODUCT DETAILS </h1>
 	<hr style ="width: 25%;">
-		<h2>Name: <?php echo $result['name'];?></h2>
-		<h2>Description: <?php echo $result['description'];?></h2>
-		<h2>Price: <?php echo $result['price'];?></h2>
-		<h2>Category: <?php echo $result['category_name'];?></h2>
+		<h2><b>Name: </b><?php echo $result['name'];?></h2>
+		<h2><b>Description: </b><?php echo $result['description'];?></h2>
+		<h2><b>Price: </b><?php echo $result['price'];?></h2>
+		<h2><b>Category: </b><?php echo $result['category_name'];?></h2>
 		<br>
 <a href="product_update.php?id=<?php echo $id; ?>" type="submit">UPDATE</a>&nbsp;
 <a href="product_delete.php?id=<?php echo $id; ?>" type="submit">DELETE</a>
