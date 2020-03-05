@@ -1,3 +1,6 @@
+<?php
+	$page = (isset($_GET['page']) && $_GET['page'] != '') ? $_GET['page'] : '';
+?>
 <html>
 	<head>
 		<title> API Inventory </title>
@@ -9,5 +12,8 @@
 		<a href = https://api-tan-endterm.herokuapp.com/form_create.php> Create </a> &nbsp;
 		<a href = https://api-tan-endterm.herokuapp.com/product_list.php> Read </a> &nbsp;
 	  	<a href = https://api-tan-endterm.herokuapp.com/category_list.php> Categories </a> &nbsp;
+	<div class = "content">
+		test
+	</div>
 	</body>
 </html>
