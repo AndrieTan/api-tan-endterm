@@ -6,6 +6,7 @@
  	$result = $details['records'];
 
 ?>
+	<title> Product Details </title>
         <link rel="stylesheet" type="text/css" href="css/style.css">    
 	<center><h1> PRODUCT DETAILS </h1>
 	<hr style ="width: 25%;">
@@ -19,5 +20,5 @@
 		<h2>Category: </h2>
 		<h2><?php echo $result['category_name']; ?></h2>
 		<br>
-<a href="product_update.php?id=<?php echo $id; ?>" type="submit">Update</button></a>&nbsp;
-<a href="product_delete.php?id=<?php echo $id; ?>" value="Delete" type="submit">Delete</button></a>
+<a href="product_update.php?id=<?php echo $id; ?>" type="submit">UPDATE</a>&nbsp;
+<a href="product_delete.php?id=<?php echo $id; ?>" type="submit">DELETE</a>
