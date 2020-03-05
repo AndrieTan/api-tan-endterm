@@ -10,10 +10,31 @@
     font-family: "Ubuntu Bold";
     src: url('../fonts/Ubuntu-B.ttf'); 
 }
-
 body{
     background-color: #ccf8cc;
     font-family: "Ubuntu Light";
     font-weight: normal;
     font-style: normal;
+}
+.products{
+  font-family: "Ubuntu Light", "Ubuntu Regular", "Ubuntu Bold";
+  border-collapse: collapse;
+  width: 100%;
+}
+.products td, .products th{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.products tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+.products tr:hover{
+    background-color: #ddd;
+}
+.products th{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
 }
