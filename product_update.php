@@ -13,7 +13,7 @@
 <link rel="stylesheet" type="text/css" href="css/style.css">    
 <form method="POST" action="pro_update.php?id=<?php echo $id ?>">
 	<center>
-	<h1> Update Product </h1>
+	<h1> UPDATE PRODUCT </h1>
 	<hr style ="width: 25%;">
 	<br>
 	<table style="border: 1px black solid;">
