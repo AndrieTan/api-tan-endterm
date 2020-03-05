@@ -17,7 +17,7 @@
 	<h1> UPDATE PRODUCT </h1>
 	<hr style ="width: 25%;">
 	<br>
-	<h2>Name: </h2><input type="text" name="name" value="<?php echo $result['name'];?>"
+	<h2>Name: </h2><input type="text" name="name" value="<?php echo $result['name'];?>">
 	<h2>Description: </h2><input type="text" name="description" value="<?php echo $result['description'];?>">
 	<h2>Price: </h2> <input type="text" name="price" value="<?php echo $result['price'];?>">
 	<h2>Category: </h2>
