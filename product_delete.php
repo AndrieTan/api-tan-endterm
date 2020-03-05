@@ -9,15 +9,17 @@
 <html>
 	<head> 
 		<title> Delete Confirm </title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
-		<h1>Are you sure to delete <?php echo $result['name']?>?</h1>
+		<center>
+		<h1>ARE YOU SURE YOU WANT TO DELETE <?php echo $result['name']?>?</h1>
 		<br>
 		<form action = "pro_delete.php?id=<?php echo $id?>" method = "POST">
-			<input type="Submit" name="Submit" value="Yes">
+			<input type="Submit" name="Submit" value="YES">
 		</form>
 		<form action="product_list.php">
-			<input type="Submit" name="Submit" value = "No">
+			<input type="Submit" name="Submit" value = "NO">
 		</form>
 	</body>
 </html>
