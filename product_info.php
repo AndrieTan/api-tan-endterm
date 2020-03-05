@@ -6,8 +6,7 @@
  	$result = $details['records'];
 
 ?>
-
-	<br>
+        <link rel="stylesheet" type="text/css" href="css/style.css">    
 	<center><h1> PRODUCT DETAILS </h1>
 	<hr style ="width: 25%;">
 	<br>
