@@ -5,6 +5,6 @@
 		<input type="text" name="name" placeholder="name"/><br>
 		<input type="text" name="description" placeholder="description"/><br>
 		<input type="text" name="price" placeholder="price"/><br>
-		<input type="text" name="category" placeholder="category"/><br>
+		<input type="text" name="category" placeholder="category"/><br><br>
 		<input type="submit" name="submit" value="submit"/>
 </form>
