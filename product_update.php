@@ -17,10 +17,10 @@
 	<h1> UPDATE PRODUCT </h1>
 	<hr style ="width: 25%;">
 	<br>
-	<h2>Name:&nbsp;<input type="text" name="name" value="<?php echo $result['name'];?>"></h2>
-	<h2>Description:&nbsp;<input type="text" name="description" value="<?php echo $result['description'];?>"></h2>
-	<h2>Price:&nbsp;<input type="text" name="price" value="<?php echo $result['price'];?>"></h2>
-	<h2>Category:&nbsp;
+	<h2><b>Name:</b>&nbsp;<input type="text" name="name" value="<?php echo $result['name'];?>"></h2>
+	<h2><b>Description:<b>&nbsp;<input type="text" name="description" value="<?php echo $result['description'];?>"></h2>
+	<h2><b>Price:</b>&nbsp;<input type="text" name="price" value="<?php echo $result['price'];?>"></h2>
+	<h2><b>Category</b>:&nbsp;
 	<select type="text" name="category">
 		<option value="<?php echo $result['category_id'];?>" selected> <?php echo $result['category_name'];?> </option>
 		<?php
