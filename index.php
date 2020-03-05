@@ -9,9 +9,9 @@
 	<center><h1 style = "font-size:50px";> API INVENTORY </h1>
 	<body>
 	   <center>
-		<a href = https://api-tan-endterm.herokuapp.com/form_create.php> Create </a> &nbsp;
-		<a href = https://api-tan-endterm.herokuapp.com/product_list.php> Read </a> &nbsp;
-	  	<a href = https://api-tan-endterm.herokuapp.com/category_list.php> Categories </a> &nbsp;
+		<a href = index.php?page=add> Create </a> &nbsp;
+		<a href = index.php?page=product> Read </a> &nbsp;
+	  	<a href = index.php?page=category> Categories </a> &nbsp;
 	<div class = "content">
 		<?php 
 			switch($page){
