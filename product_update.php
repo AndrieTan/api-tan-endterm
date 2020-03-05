@@ -10,6 +10,7 @@
 	$category = $catData['records'];
 
 ?>
+<title> Update Product </title>
 <link rel="stylesheet" type="text/css" href="css/style.css">    
 <form method="POST" action="pro_update.php?id=<?php echo $id ?>">
 	<center>
@@ -35,5 +36,5 @@
 		?>
 	</select>
 	<br>
-	<button class="confirm" type="submit" value="Create" name="Submit"> Update </button>
+	<button class="confirm" type="submit" value="Create" name="Submit"> UPDATE </button>
 </form>
